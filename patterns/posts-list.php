@@ -1,10 +1,13 @@
 <?php
 /**
  * Title: List of posts in three columns.
- * Slug: frost/posts-list
+ * Slug: {fixrs}/posts-list
  * Categories: posts
  * Block Types: core/query
+ *
+ * @package {fixrs}-theme
  */
+
 ?>
 <!-- wp:query {"queryId":0,"query":{"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":false,"align":"wide","layout":{"type":"default"}} -->
 <div class="wp-block-query alignwide">

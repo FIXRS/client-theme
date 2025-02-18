@@ -1,9 +1,12 @@
 <?php
 /**
  * Title: Testimonials with text, image.
- * Slug: frost/testimonials-image-dark
+ * Slug: {fixrs}/testimonials-image-dark
  * Categories: testimonials
+ *
+ * @package {fixrs}-theme
  */
+
 ?>
 <!-- wp:group {"align":"wide","layout":{"type":"default"}} -->
 <div class="wp-block-group alignwide">
@@ -15,19 +18,19 @@
 			<p class="has-max-72-font-size" style="line-height:1">“</p>
 			<!-- /wp:paragraph -->
 			<!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"0"}}}} -->
-			<p style="margin-top:0"><?php echo esc_html__( 'With its clean, minimal design and powerful features, Frost enables agencies to build cool websites.', 'frost' ); ?></p>
+			<p style="margin-top:0"><?php echo esc_html__( 'With its clean, minimal design and powerful features, Gutenberg enables agencies to build cool websites.', '{fixrs}-theme' ); ?></p>
 			<!-- /wp:paragraph -->
-			<!-- wp:group {"style":{"spacing":{"blockGap":"15px"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
+			<!-- wp:group {"style":{"spacing":{"blockGap":"1.5rem"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
 			<div class="wp-block-group">
-				<!-- wp:image {"width":60,"height":60,"sizeSlug":"full","linkDestination":"none","style":{"border":{"radius":"50px"}},"className":"is-style-rounded"} -->
-				<figure class="wp-block-image size-full is-resized has-custom-border is-style-rounded"><img src="<?php echo esc_url( get_theme_file_uri() ) . '/assets/images/sample_white_800x800.jpg'; ?>" alt="<?php echo esc_attr__( 'Testimonial Avatar', 'frost' ); ?>" style="border-radius:50px" width="60" height="60"/></figure>
+				<!-- wp:image {"width":60,"height":60,"sizeSlug":"full","linkDestination":"none","style":{"border":{"radius":"5.0rem"}},"className":"is-style-rounded"} -->
+				<figure class="wp-block-image size-full is-resized has-custom-border is-style-rounded"><img src="<?php echo esc_url( get_theme_file_uri() ) . '/assets/images/sample_white_800x800.jpg'; ?>" alt="<?php echo esc_attr__( 'Testimonial Avatar', '{fixrs}-theme' ); ?>" style="border-radius:5.0rem" width="60" height="60"/></figure>
 				<!-- /wp:image -->
 				<!-- wp:group {"style":{"spacing":{"blockGap":"0"},"typography":{"lineHeight":"1.5"}},"layout":{"type":"constrained"}} -->
 				<div class="wp-block-group" style="line-height:1.5"><!-- wp:paragraph {"fontSize":"small"} -->
-					<p class="has-small-font-size"><strong><?php echo esc_html__( 'Allison Taylor', 'frost' ); ?></strong></p>
+					<p class="has-small-font-size"><strong><?php echo esc_html__( 'Allison Taylor', '{fixrs}-theme' ); ?></strong></p>
 					<!-- /wp:paragraph -->
 					<!-- wp:paragraph {"fontSize":"small"} -->
-					<p class="has-small-font-size"><?php echo esc_html__( 'Designer', 'frost' ); ?></p>
+					<p class="has-small-font-size"><?php echo esc_html__( 'Designer', '{fixrs}-theme' ); ?></p>
 					<!-- /wp:paragraph -->
 				</div>
 				<!-- /wp:group -->
@@ -41,19 +44,19 @@
 			<p class="has-max-72-font-size" style="line-height:1">“</p>
 			<!-- /wp:paragraph -->
 			<!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"0"}}}} -->
-			<p style="margin-top:0"><?php echo esc_html__( 'With its clean, minimal design and powerful features, Frost enables agencies to build cool websites.', 'frost' ); ?></p>
+			<p style="margin-top:0"><?php echo esc_html__( 'With its clean, minimal design and powerful features, Gutenberg enables agencies to build cool websites.', '{fixrs}-theme' ); ?></p>
 			<!-- /wp:paragraph -->
-			<!-- wp:group {"style":{"spacing":{"blockGap":"15px"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
+			<!-- wp:group {"style":{"spacing":{"blockGap":"1.5rem"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
 			<div class="wp-block-group">
-				<!-- wp:image {"width":60,"height":60,"sizeSlug":"full","linkDestination":"none","style":{"border":{"radius":"50px"}},"className":"is-style-rounded"} -->
-				<figure class="wp-block-image size-full is-resized has-custom-border is-style-rounded"><img src="<?php echo esc_url( get_theme_file_uri() ) . '/assets/images/sample_white_800x800.jpg'; ?>" alt="<?php echo esc_attr__( 'Testimonial Avatar', 'frost' ); ?>" style="border-radius:50px" width="60" height="60"/></figure>
+				<!-- wp:image {"width":60,"height":60,"sizeSlug":"full","linkDestination":"none","style":{"border":{"radius":"5.0rem"}},"className":"is-style-rounded"} -->
+				<figure class="wp-block-image size-full is-resized has-custom-border is-style-rounded"><img src="<?php echo esc_url( get_theme_file_uri() ) . '/assets/images/sample_white_800x800.jpg'; ?>" alt="<?php echo esc_attr__( 'Testimonial Avatar', '{fixrs}-theme' ); ?>" style="border-radius:5.0rem" width="60" height="60"/></figure>
 				<!-- /wp:image -->
 				<!-- wp:group {"style":{"spacing":{"blockGap":"0"},"typography":{"lineHeight":"1.5"}},"layout":{"type":"constrained"}} -->
 				<div class="wp-block-group" style="line-height:1.5"><!-- wp:paragraph {"fontSize":"small"} -->
-					<p class="has-small-font-size"><strong><?php echo esc_html__( 'Anthony Breck', 'frost' ); ?></strong></p>
+					<p class="has-small-font-size"><strong><?php echo esc_html__( 'Anthony Breck', '{fixrs}-theme' ); ?></strong></p>
 					<!-- /wp:paragraph -->
 					<!-- wp:paragraph {"fontSize":"small"} -->
-					<p class="has-small-font-size"><?php echo esc_html__( 'Developer', 'frost' ); ?></p>
+					<p class="has-small-font-size"><?php echo esc_html__( 'Developer', '{fixrs}-theme' ); ?></p>
 					<!-- /wp:paragraph -->
 				</div>
 				<!-- /wp:group -->
@@ -67,19 +70,19 @@
 			<p class="has-max-72-font-size" style="line-height:1">“</p>
 			<!-- /wp:paragraph -->
 			<!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"0"}}}} -->
-			<p style="margin-top:0"><?php echo esc_html__( 'With its clean, minimal design and powerful features, Frost enables agencies to build cool websites.', 'frost' ); ?></p>
+			<p style="margin-top:0"><?php echo esc_html__( 'With its clean, minimal design and powerful features, Gutenberg enables agencies to build cool websites.', '{fixrs}-theme' ); ?></p>
 			<!-- /wp:paragraph -->
-			<!-- wp:group {"style":{"spacing":{"blockGap":"15px"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
+			<!-- wp:group {"style":{"spacing":{"blockGap":"1.5rem"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
 			<div class="wp-block-group">
-				<!-- wp:image {"width":60,"height":60,"sizeSlug":"full","linkDestination":"none","style":{"border":{"radius":"50px"}},"className":"is-style-rounded"} -->
-				<figure class="wp-block-image size-full is-resized has-custom-border is-style-rounded"><img src="<?php echo esc_url( get_theme_file_uri() ) . '/assets/images/sample_white_800x800.jpg'; ?>" alt="<?php echo esc_attr__( 'Testimonial Avatar', 'frost' ); ?>" style="border-radius:50px" width="60" height="60"/></figure>
+				<!-- wp:image {"width":60,"height":60,"sizeSlug":"full","linkDestination":"none","style":{"border":{"radius":"5.0rem"}},"className":"is-style-rounded"} -->
+				<figure class="wp-block-image size-full is-resized has-custom-border is-style-rounded"><img src="<?php echo esc_url( get_theme_file_uri() ) . '/assets/images/sample_white_800x800.jpg'; ?>" alt="<?php echo esc_attr__( 'Testimonial Avatar', '{fixrs}-theme' ); ?>" style="border-radius:5.0rem" width="60" height="60"/></figure>
 				<!-- /wp:image -->
 				<!-- wp:group {"style":{"spacing":{"blockGap":"0"},"typography":{"lineHeight":"1.5"}},"layout":{"type":"constrained"}} -->
 				<div class="wp-block-group" style="line-height:1.5"><!-- wp:paragraph {"fontSize":"small"} -->
-					<p class="has-small-font-size"><strong><?php echo esc_html__( 'Rebecca Jones', 'frost' ); ?></strong></p>
+					<p class="has-small-font-size"><strong><?php echo esc_html__( 'Rebecca Jones', '{fixrs}-theme' ); ?></strong></p>
 					<!-- /wp:paragraph -->
 					<!-- wp:paragraph {"fontSize":"small"} -->
-					<p class="has-small-font-size"><?php echo esc_html__( 'Coach', 'frost' ); ?></p>
+					<p class="has-small-font-size"><?php echo esc_html__( 'Coach', '{fixrs}-theme' ); ?></p>
 					<!-- /wp:paragraph -->
 				</div>
 				<!-- /wp:group -->

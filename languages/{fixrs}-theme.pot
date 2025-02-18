@@ -1,0 +1,767 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: {fixrs}-theme\n"
+"POT-Creation-Date: 2025-02-18 11:54-0500\n"
+"PO-Revision-Date: 2025-02-18 11:53-0500\n"
+"Last-Translator: \n"
+"Language-Team: FIXRS\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Poedit 3.5\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: functions.php:57
+msgid "Reverse"
+msgstr ""
+
+#: functions.php:60 functions.php:67
+msgid "Shadow"
+msgstr ""
+
+#: functions.php:61 functions.php:68
+msgid "Solid"
+msgstr ""
+
+#: functions.php:64
+msgid "No Disc"
+msgstr ""
+
+#: functions.php:71
+msgid "Outline"
+msgstr ""
+
+#: functions.php:99
+msgid "Page"
+msgstr ""
+
+#: functions.php:100
+msgid "Create a full page with multiple patterns that are grouped together."
+msgstr ""
+
+#: functions.php:106
+msgid "Pricing"
+msgstr ""
+
+#: functions.php:107
+msgid "Compare features for your digital products or service plans."
+msgstr ""
+
+#: patterns/404.php:12
+msgid "Not found, error 404"
+msgstr ""
+
+#: patterns/404.php:15
+msgid ""
+"Oops, the page you are looking for does not exist or is no longer available. "
+"Everything is still awesome. Just use the search form to find your way."
+msgstr ""
+
+#: patterns/boxes-three-dark.php:18 patterns/boxes-three-dark.php:35
+#: patterns/boxes-three-dark.php:52 patterns/boxes-three.php:18
+#: patterns/boxes-three.php:35 patterns/boxes-three.php:52
+#: patterns/boxes-two-dark.php:18 patterns/boxes-two-dark.php:35
+#: patterns/boxes-two.php:18 patterns/boxes-two.php:35
+#: patterns/page-home.php:40 patterns/portfolio.php:18
+msgid "Build with Gutenberg"
+msgstr ""
+
+#: patterns/boxes-three-dark.php:21 patterns/boxes-three-dark.php:38
+#: patterns/boxes-three-dark.php:55 patterns/boxes-three.php:21
+#: patterns/boxes-three.php:38 patterns/boxes-three.php:55
+msgid ""
+"Gutenberg is a powerful WordPress theme created for agencies and "
+"professional website builders."
+msgstr ""
+
+#: patterns/boxes-three-dark.php:26 patterns/boxes-three-dark.php:43
+#: patterns/boxes-three-dark.php:60 patterns/boxes-three.php:26
+#: patterns/boxes-three.php:43 patterns/boxes-three.php:60
+#: patterns/boxes-two-dark.php:26 patterns/boxes-two-dark.php:43
+#: patterns/boxes-two.php:26 patterns/boxes-two.php:43
+#: patterns/footer-mega-dark.php:26 patterns/footer-mega.php:26
+#: patterns/hero-one-column.php:32 patterns/hero-two-columns.php:31
+#: patterns/page-about.php:29 patterns/page-home.php:25
+msgid "Learn More"
+msgstr ""
+
+#: patterns/boxes-two-dark.php:21 patterns/boxes-two-dark.php:38
+#: patterns/boxes-two.php:21 patterns/boxes-two.php:38
+#: patterns/page-home.php:43
+msgid ""
+"Gutenberg is a powerful WordPress theme created for agencies and "
+"professional website builders. With its clean, minimal design, Gutenberg "
+"provides the perfect canvas for stylish and sophisticated websites."
+msgstr ""
+
+#: patterns/comments.php:15
+msgid "Comments"
+msgstr ""
+
+#: patterns/cta-button-dark.php:14 patterns/cta-button.php:14
+#: patterns/footer-mega-dark.php:21 patterns/footer-mega.php:21
+#: patterns/footer-stacked-dark.php:18 patterns/footer-stacked.php:18
+#: patterns/hero-one-column.php:22 patterns/hero-two-columns.php:23
+#: patterns/page-about.php:77 patterns/page-pricing.php:44
+#: patterns/page-pricing.php:57 patterns/page-pricing.php:71
+msgid ""
+"With its clean, minimal design and powerful feature set, Gutenberg enables "
+"agencies to build stylish and sophisticated WordPress websites."
+msgstr ""
+
+#: patterns/cta-button-dark.php:19 patterns/cta-button.php:19
+msgid "Get Started Today"
+msgstr ""
+
+#: patterns/cta-stacked-dark.php:16 patterns/cta-stacked.php:16
+msgid "Call-to-Action"
+msgstr ""
+
+#: patterns/cta-stacked-dark.php:19 patterns/cta-stacked.php:19
+msgid ""
+"With its minimal design and powerful feature set, Gutenberg enables agencies "
+"to build sophisticated websites."
+msgstr ""
+
+#: patterns/cta-stacked-dark.php:24 patterns/cta-stacked.php:24
+#: patterns/header-notification-bar-dark.php:22
+#: patterns/header-notification-bar.php:22 patterns/hero-one-column.php:29
+#: patterns/hero-two-columns.php:28 patterns/page-about.php:26
+#: patterns/page-home.php:22 patterns/page-home.php:48
+#: patterns/page-home.php:99 patterns/page-home.php:119
+#: patterns/page-home.php:154 patterns/pricing-four-columns-dark.php:64
+#: patterns/pricing-four-columns-dark.php:119
+#: patterns/pricing-four-columns-dark.php:174
+#: patterns/pricing-four-columns-dark.php:229
+#: patterns/pricing-four-columns.php:64 patterns/pricing-four-columns.php:119
+#: patterns/pricing-four-columns.php:174 patterns/pricing-four-columns.php:229
+#: patterns/pricing-three-columns-dark.php:64
+#: patterns/pricing-three-columns-dark.php:119
+#: patterns/pricing-three-columns-dark.php:174
+#: patterns/pricing-three-columns.php:64 patterns/pricing-three-columns.php:119
+#: patterns/pricing-three-columns.php:174
+#: patterns/pricing-two-columns-dark.php:64
+#: patterns/pricing-two-columns-dark.php:119
+#: patterns/pricing-two-columns.php:64 patterns/pricing-two-columns.php:119
+msgid "Get Started"
+msgstr ""
+
+#: patterns/footer-default-dark.php:17 patterns/footer-stacked-dark.php:28
+#: patterns/footer-stacked.php:28 patterns/footer-three-columns-dark.php:17
+#: patterns/footer-three-columns.php:17
+msgid "Your Company LLC"
+msgstr ""
+
+#: patterns/footer-default-dark.php:17 patterns/footer-stacked-dark.php:28
+#: patterns/footer-stacked.php:28 patterns/footer-three-columns-dark.php:20
+#: patterns/footer-three-columns.php:20
+msgid "Contact Us"
+msgstr ""
+
+#: patterns/footer-default-dark.php:20 patterns/footer-default.php:20
+#: patterns/footer-mega-dark.php:92 patterns/footer-mega.php:92
+msgid "Facebook"
+msgstr ""
+
+#: patterns/footer-default-dark.php:20 patterns/footer-default.php:20
+#: patterns/footer-mega-dark.php:101 patterns/footer-mega.php:101
+msgid "LinkedIn"
+msgstr ""
+
+#: patterns/footer-default-dark.php:20 patterns/footer-default.php:20
+#: patterns/footer-mega-dark.php:95 patterns/footer-mega.php:95
+msgid "Instagram"
+msgstr ""
+
+#: patterns/footer-mega-dark.php:18 patterns/footer-mega.php:18
+msgid "Our Company"
+msgstr ""
+
+#: patterns/footer-mega-dark.php:35 patterns/footer-mega.php:35
+msgid "About Us"
+msgstr ""
+
+#: patterns/footer-mega-dark.php:40 patterns/footer-mega.php:40
+msgid "Start Here"
+msgstr ""
+
+#: patterns/footer-mega-dark.php:43 patterns/footer-mega.php:43
+msgid "Our Mission"
+msgstr ""
+
+#: patterns/footer-mega-dark.php:46 patterns/footer-mega.php:46
+msgid "Brand Guide"
+msgstr ""
+
+#: patterns/footer-mega-dark.php:49 patterns/footer-mega.php:49
+msgid "Newsletter"
+msgstr ""
+
+#: patterns/footer-mega-dark.php:52 patterns/footer-mega.php:52
+msgid "Accessibility"
+msgstr ""
+
+#: patterns/footer-mega-dark.php:61 patterns/footer-mega.php:61
+msgid "Services"
+msgstr ""
+
+#: patterns/footer-mega-dark.php:66 patterns/footer-mega.php:66
+msgid "Web Design"
+msgstr ""
+
+#: patterns/footer-mega-dark.php:69 patterns/footer-mega.php:69
+msgid "Development"
+msgstr ""
+
+#: patterns/footer-mega-dark.php:72 patterns/footer-mega.php:72
+msgid "Copywriting"
+msgstr ""
+
+#: patterns/footer-mega-dark.php:75 patterns/footer-mega.php:75
+msgid "Marketing"
+msgstr ""
+
+#: patterns/footer-mega-dark.php:78 patterns/footer-mega.php:78
+msgid "Social Media"
+msgstr ""
+
+#: patterns/footer-mega-dark.php:87 patterns/footer-mega.php:87
+msgid "Connect"
+msgstr ""
+
+#: patterns/footer-mega-dark.php:98 patterns/footer-mega.php:98
+msgid "Twitter"
+msgstr ""
+
+#: patterns/footer-mega-dark.php:104 patterns/footer-mega.php:104
+msgid "Dribbble"
+msgstr ""
+
+#: patterns/footer-stacked-dark.php:15 patterns/footer-stacked.php:15
+msgid "Let’s Connect"
+msgstr ""
+
+#: patterns/footer-stacked-dark.php:23 patterns/footer-stacked.php:23
+msgid "Get in Touch"
+msgstr ""
+
+#: patterns/footer-three-columns-dark.php:20
+#: patterns/footer-three-columns.php:20
+msgid "Privacy Policy"
+msgstr ""
+
+#: patterns/footer-three-columns-dark.php:20
+#: patterns/footer-three-columns.php:20
+msgid "Terms of Service"
+msgstr ""
+
+#: patterns/header-notification-bar-dark.php:17
+#: patterns/header-notification-bar.php:17
+msgid ""
+"With its minimal design and powerful feature set, Gutenberg enables agencies "
+"to build stylish websites."
+msgstr ""
+
+#: patterns/hero-one-column.php:14 patterns/hero-two-columns.php:42
+#: patterns/page-about.php:38 patterns/page-about.php:199
+#: patterns/page-about.php:219 patterns/page-about.php:239
+#: patterns/page-about.php:259 patterns/page-home.php:59
+#: patterns/page-home.php:84 patterns/page-home.php:128
+#: patterns/page-home.php:139 patterns/page-link.php:16
+#: patterns/portfolio.php:35 patterns/portfolio.php:38
+#: patterns/portfolio.php:41 patterns/portfolio.php:44
+#: patterns/product-box.php:18 patterns/team-four-columns.php:18
+#: patterns/team-four-columns.php:38 patterns/team-four-columns.php:58
+#: patterns/team-four-columns.php:78
+msgid "Sample Image"
+msgstr ""
+
+#: patterns/hero-one-column.php:17 patterns/hero-two-columns.php:20
+msgid "Welcome to Gutenberg"
+msgstr ""
+
+#: patterns/newsletter-signup-dark.php:14 patterns/newsletter-signup.php:14
+msgid "Newsletter Signup"
+msgstr ""
+
+#: patterns/newsletter-signup-dark.php:17 patterns/newsletter-signup.php:17
+msgid ""
+"Don’t miss out on exclusive content, valuable insights, and fantastic "
+"offers. Stay connected + grow your business!"
+msgstr ""
+
+#: patterns/newsletter-signup-dark.php:20 patterns/newsletter-signup.php:20
+msgid "[INSERT SIGNUP FORM CODE HERE]"
+msgstr ""
+
+#: patterns/page-about.php:18 patterns/page-home.php:14
+#: patterns/page-home.php:72
+msgid "Experience the next generation of WordPress."
+msgstr ""
+
+#: patterns/page-about.php:21 patterns/page-home.php:149
+msgid ""
+"Whether you’re building a website for your business, personal brand, or "
+"creative project, Gutenberg is the perfect solution for anyone looking to "
+"launch a website quickly and efficiently."
+msgstr ""
+
+#: patterns/page-about.php:51 patterns/page-about.php:54
+#: patterns/page-about.php:57 patterns/page-about.php:60
+#: patterns/page-about.php:63
+msgid "Sample Logo"
+msgstr ""
+
+#: patterns/page-about.php:74
+msgid "Build with Gutenberg."
+msgstr ""
+
+#: patterns/page-about.php:89
+msgid "Design"
+msgstr ""
+
+#: patterns/page-about.php:92
+msgid ""
+"The foundation on which aesthetics, user experience, and functionality is "
+"built."
+msgstr ""
+
+#: patterns/page-about.php:95 patterns/page-about.php:111
+#: patterns/page-about.php:127 patterns/page-about.php:143
+msgid "Learn More →"
+msgstr ""
+
+#: patterns/page-about.php:105
+msgid "Patterns"
+msgstr ""
+
+#: patterns/page-about.php:108
+msgid ""
+"A preset bundle of blocks that empower builders and amplify their creativity."
+msgstr ""
+
+#: patterns/page-about.php:121
+msgid "Layouts"
+msgstr ""
+
+#: patterns/page-about.php:124
+msgid ""
+"A collection of full-page patterns used to showcase content or a message."
+msgstr ""
+
+#: patterns/page-about.php:137
+msgid "Styles"
+msgstr ""
+
+#: patterns/page-about.php:140
+msgid ""
+"An essential element of web design used to create a visually striking design."
+msgstr ""
+
+#: patterns/page-about.php:158
+msgid ""
+"With its clean, minimal design and powerful feature set, Gutenberg enables "
+"agencies to build stylish and sophisticated WordPress websites. Ka-chow!"
+msgstr ""
+
+#: patterns/page-about.php:167
+msgid "View Patterns"
+msgstr ""
+
+#: patterns/page-about.php:170
+msgid "View Layouts"
+msgstr ""
+
+#: patterns/page-about.php:185
+msgid "Meet the team."
+msgstr ""
+
+#: patterns/page-about.php:188
+msgid "The talented folks who work on the Gutenberg theme."
+msgstr ""
+
+#: patterns/page-about.php:202 patterns/page-about.php:222
+#: patterns/page-about.php:242 patterns/page-about.php:262
+#: patterns/team-four-columns.php:21 patterns/team-four-columns.php:41
+#: patterns/team-four-columns.php:61 patterns/team-four-columns.php:81
+msgid "Member Name"
+msgstr ""
+
+#: patterns/page-about.php:205 patterns/page-about.php:225
+#: patterns/page-about.php:245 patterns/page-about.php:265
+#: patterns/team-four-columns.php:24 patterns/team-four-columns.php:44
+#: patterns/team-four-columns.php:64 patterns/team-four-columns.php:84
+msgid "I’m a WordPress developer and enjoy building websites."
+msgstr ""
+
+#: patterns/page-about.php:210 patterns/page-about.php:230
+#: patterns/page-about.php:250 patterns/page-about.php:270
+#: patterns/team-four-columns.php:29 patterns/team-four-columns.php:49
+#: patterns/team-four-columns.php:69 patterns/team-four-columns.php:89
+msgid "View Profile"
+msgstr ""
+
+#: patterns/page-home.php:17 patterns/page-home.php:75
+#: patterns/page-pricing.php:19
+msgid "Gutenberg is the ultimate WordPress theme for website builders."
+msgstr ""
+
+#: patterns/page-home.php:91
+msgid "Fresh patterns. Endless Layouts."
+msgstr ""
+
+#: patterns/page-home.php:94
+msgid ""
+"Gutenberg is a masterpiece of design and functionality. It features a range "
+"of valuable elements, including hero and portfolio sections, prominent call-"
+"to-action buttons, and customer testimonials."
+msgstr ""
+
+#: patterns/page-home.php:111
+msgid "One theme. Infinite designs."
+msgstr ""
+
+#: patterns/page-home.php:114
+msgid ""
+"Gutenberg utilizes the potential of the editor to create link pages, serve "
+"as a powerful tool for building relationships with clients, sharing valuable "
+"content, and boosting social media engagement."
+msgstr ""
+
+#: patterns/page-home.php:146
+msgid "Stylish websites. Simply made."
+msgstr ""
+
+#: patterns/page-link.php:19
+msgid "Your Name"
+msgstr ""
+
+#: patterns/page-link.php:37
+msgid "Visit My Website"
+msgstr ""
+
+#: patterns/page-link.php:40
+msgid "Read My Blog"
+msgstr ""
+
+#: patterns/page-link.php:43
+msgid "Download My Ebook"
+msgstr ""
+
+#: patterns/page-link.php:46
+msgid "Follow My Newsletter"
+msgstr ""
+
+#: patterns/page-link.php:49
+msgid "Listen to My Podcast"
+msgstr ""
+
+#: patterns/page-link.php:54
+msgid "Made with Gutenberg"
+msgstr ""
+
+#: patterns/page-pricing.php:16
+msgid "Our Pricing"
+msgstr ""
+
+#: patterns/page-pricing.php:31
+msgid "FAQs"
+msgstr ""
+
+#: patterns/page-pricing.php:34
+msgid "Below is a list of frequently asked questions."
+msgstr ""
+
+#: patterns/page-pricing.php:41 patterns/page-pricing.php:54
+#: patterns/page-pricing.php:68
+msgid "Why should I download the Gutenberg WordPress theme?"
+msgstr ""
+
+#: patterns/portfolio.php:21
+msgid ""
+"Gutenberg is a powerful WordPress theme created for agencies and "
+"professional website builders. With its clean, minimal design, Gutenberg "
+"provides the perfect canvas for sophisticated websites."
+msgstr ""
+
+#: patterns/portfolio.php:25
+msgid "View Project"
+msgstr ""
+
+#: patterns/pricing-four-columns-dark.php:20
+#: patterns/pricing-four-columns.php:20
+#: patterns/pricing-three-columns-dark.php:20
+#: patterns/pricing-three-columns.php:20
+#: patterns/pricing-two-columns-dark.php:20 patterns/pricing-two-columns.php:20
+msgid "Personal"
+msgstr ""
+
+#: patterns/pricing-four-columns-dark.php:23
+#: patterns/pricing-four-columns.php:23
+#: patterns/pricing-three-columns-dark.php:23
+#: patterns/pricing-three-columns.php:23
+#: patterns/pricing-two-columns-dark.php:23 patterns/pricing-two-columns.php:23
+msgid "$95/yr."
+msgstr ""
+
+#: patterns/pricing-four-columns-dark.php:30
+#: patterns/pricing-four-columns-dark.php:36
+#: patterns/pricing-four-columns-dark.php:42
+#: patterns/pricing-four-columns-dark.php:48
+#: patterns/pricing-four-columns-dark.php:54
+#: patterns/pricing-four-columns-dark.php:85
+#: patterns/pricing-four-columns-dark.php:91
+#: patterns/pricing-four-columns-dark.php:97
+#: patterns/pricing-four-columns-dark.php:103
+#: patterns/pricing-four-columns-dark.php:109
+#: patterns/pricing-four-columns-dark.php:140
+#: patterns/pricing-four-columns-dark.php:146
+#: patterns/pricing-four-columns-dark.php:152
+#: patterns/pricing-four-columns-dark.php:158
+#: patterns/pricing-four-columns-dark.php:164
+#: patterns/pricing-four-columns-dark.php:195
+#: patterns/pricing-four-columns-dark.php:201
+#: patterns/pricing-four-columns-dark.php:207
+#: patterns/pricing-four-columns-dark.php:213
+#: patterns/pricing-four-columns-dark.php:219
+#: patterns/pricing-four-columns.php:30 patterns/pricing-four-columns.php:36
+#: patterns/pricing-four-columns.php:42 patterns/pricing-four-columns.php:48
+#: patterns/pricing-four-columns.php:54 patterns/pricing-four-columns.php:85
+#: patterns/pricing-four-columns.php:91 patterns/pricing-four-columns.php:97
+#: patterns/pricing-four-columns.php:103 patterns/pricing-four-columns.php:109
+#: patterns/pricing-four-columns.php:140 patterns/pricing-four-columns.php:146
+#: patterns/pricing-four-columns.php:152 patterns/pricing-four-columns.php:158
+#: patterns/pricing-four-columns.php:164 patterns/pricing-four-columns.php:195
+#: patterns/pricing-four-columns.php:201 patterns/pricing-four-columns.php:207
+#: patterns/pricing-four-columns.php:213 patterns/pricing-four-columns.php:219
+#: patterns/pricing-three-columns-dark.php:30
+#: patterns/pricing-three-columns-dark.php:36
+#: patterns/pricing-three-columns-dark.php:42
+#: patterns/pricing-three-columns-dark.php:48
+#: patterns/pricing-three-columns-dark.php:54
+#: patterns/pricing-three-columns-dark.php:85
+#: patterns/pricing-three-columns-dark.php:91
+#: patterns/pricing-three-columns-dark.php:97
+#: patterns/pricing-three-columns-dark.php:103
+#: patterns/pricing-three-columns-dark.php:109
+#: patterns/pricing-three-columns-dark.php:140
+#: patterns/pricing-three-columns-dark.php:146
+#: patterns/pricing-three-columns-dark.php:152
+#: patterns/pricing-three-columns-dark.php:158
+#: patterns/pricing-three-columns-dark.php:164
+#: patterns/pricing-three-columns.php:30 patterns/pricing-three-columns.php:36
+#: patterns/pricing-three-columns.php:42 patterns/pricing-three-columns.php:48
+#: patterns/pricing-three-columns.php:54 patterns/pricing-three-columns.php:85
+#: patterns/pricing-three-columns.php:91 patterns/pricing-three-columns.php:97
+#: patterns/pricing-three-columns.php:103
+#: patterns/pricing-three-columns.php:109
+#: patterns/pricing-three-columns.php:140
+#: patterns/pricing-three-columns.php:146
+#: patterns/pricing-three-columns.php:152
+#: patterns/pricing-three-columns.php:158
+#: patterns/pricing-three-columns.php:164
+#: patterns/pricing-two-columns-dark.php:30
+#: patterns/pricing-two-columns-dark.php:36
+#: patterns/pricing-two-columns-dark.php:42
+#: patterns/pricing-two-columns-dark.php:48
+#: patterns/pricing-two-columns-dark.php:54
+#: patterns/pricing-two-columns-dark.php:85
+#: patterns/pricing-two-columns-dark.php:91
+#: patterns/pricing-two-columns-dark.php:97
+#: patterns/pricing-two-columns-dark.php:103
+#: patterns/pricing-two-columns-dark.php:109
+#: patterns/pricing-two-columns.php:30 patterns/pricing-two-columns.php:36
+#: patterns/pricing-two-columns.php:42 patterns/pricing-two-columns.php:48
+#: patterns/pricing-two-columns.php:54 patterns/pricing-two-columns.php:85
+#: patterns/pricing-two-columns.php:91 patterns/pricing-two-columns.php:97
+#: patterns/pricing-two-columns.php:103 patterns/pricing-two-columns.php:109
+msgid "Feature Item"
+msgstr ""
+
+#: patterns/pricing-four-columns-dark.php:75
+#: patterns/pricing-four-columns.php:75
+#: patterns/pricing-three-columns-dark.php:75
+#: patterns/pricing-three-columns.php:75
+#: patterns/pricing-two-columns-dark.php:75 patterns/pricing-two-columns.php:75
+msgid "Professional"
+msgstr ""
+
+#: patterns/pricing-four-columns-dark.php:78
+#: patterns/pricing-four-columns.php:78
+#: patterns/pricing-three-columns-dark.php:78
+#: patterns/pricing-three-columns.php:78
+#: patterns/pricing-two-columns-dark.php:78 patterns/pricing-two-columns.php:78
+msgid "$195/yr."
+msgstr ""
+
+#: patterns/pricing-four-columns-dark.php:130
+#: patterns/pricing-four-columns.php:130
+#: patterns/pricing-three-columns-dark.php:130
+#: patterns/pricing-three-columns.php:130
+msgid "Enterprise"
+msgstr ""
+
+#: patterns/pricing-four-columns-dark.php:133
+#: patterns/pricing-four-columns.php:133
+#: patterns/pricing-three-columns-dark.php:133
+#: patterns/pricing-three-columns.php:133
+msgid "$495/yr."
+msgstr ""
+
+#: patterns/pricing-four-columns-dark.php:185
+msgid "Ultime"
+msgstr ""
+
+#: patterns/pricing-four-columns-dark.php:188
+#: patterns/pricing-four-columns.php:188
+msgid "$995/yr."
+msgstr ""
+
+#: patterns/pricing-four-columns.php:185
+msgid "Ultimate"
+msgstr ""
+
+#: patterns/product-box-dark.php:18
+msgid "Gutenberg Theme Sample Image"
+msgstr ""
+
+#: patterns/product-box-dark.php:25 patterns/product-box.php:25
+msgid "Gutenberg WordPress Theme"
+msgstr ""
+
+#: patterns/product-box-dark.php:28 patterns/product-box.php:28
+msgid "The ultimate WordPress block theme for agencies and website builders."
+msgstr ""
+
+#: patterns/product-box-dark.php:33 patterns/product-box.php:33
+msgid "Buy Gutenberg"
+msgstr ""
+
+#: patterns/progress-bars.php:20
+msgid "Item #1"
+msgstr ""
+
+#: patterns/progress-bars.php:23
+msgid "100%"
+msgstr ""
+
+#: patterns/progress-bars.php:56
+msgid "Item #2"
+msgstr ""
+
+#: patterns/progress-bars.php:59
+msgid "90%"
+msgstr ""
+
+#: patterns/progress-bars.php:92
+msgid "Item #3"
+msgstr ""
+
+#: patterns/progress-bars.php:95
+msgid "80%"
+msgstr ""
+
+#: patterns/progress-bars.php:128
+msgid "Item #4"
+msgstr ""
+
+#: patterns/progress-bars.php:131
+msgid "70%"
+msgstr ""
+
+#: patterns/progress-bars.php:164
+msgid "Item #5"
+msgstr ""
+
+#: patterns/progress-bars.php:167
+msgid "60%"
+msgstr ""
+
+#: patterns/progress-bars.php:200
+msgid "Item #6"
+msgstr ""
+
+#: patterns/progress-bars.php:203
+msgid "50%"
+msgstr ""
+
+#: patterns/testimonials-dark.php:21 patterns/testimonials-dark.php:34
+#: patterns/testimonials-dark.php:47 patterns/testimonials-image-dark.php:21
+#: patterns/testimonials-image-dark.php:47
+#: patterns/testimonials-image-dark.php:73 patterns/testimonials-image.php:21
+#: patterns/testimonials-image.php:48 patterns/testimonials-image.php:75
+#: patterns/testimonials.php:21 patterns/testimonials.php:35
+#: patterns/testimonials.php:48
+msgid ""
+"With its clean, minimal design and powerful features, Gutenberg enables "
+"agencies to build cool websites."
+msgstr ""
+
+#: patterns/testimonials-dark.php:24 patterns/testimonials.php:24
+msgid "—Allison Taylor, Designer"
+msgstr ""
+
+#: patterns/testimonials-dark.php:37 patterns/testimonials.php:38
+msgid "—Anthony Breck, Developer"
+msgstr ""
+
+#: patterns/testimonials-dark.php:50 patterns/testimonials.php:51
+msgid "—Rebecca Jones, Coach"
+msgstr ""
+
+#: patterns/testimonials-image-dark.php:26
+#: patterns/testimonials-image-dark.php:52
+#: patterns/testimonials-image-dark.php:78 patterns/testimonials-image.php:26
+#: patterns/testimonials-image.php:53 patterns/testimonials-image.php:80
+msgid "Testimonial Avatar"
+msgstr ""
+
+#: patterns/testimonials-image-dark.php:30 patterns/testimonials-image.php:31
+msgid "Allison Taylor"
+msgstr ""
+
+#: patterns/testimonials-image-dark.php:33 patterns/testimonials-image.php:34
+msgid "Designer"
+msgstr ""
+
+#: patterns/testimonials-image-dark.php:56 patterns/testimonials-image.php:58
+msgid "Anthony Breck"
+msgstr ""
+
+#: patterns/testimonials-image-dark.php:59 patterns/testimonials-image.php:61
+msgid "Developer"
+msgstr ""
+
+#: patterns/testimonials-image-dark.php:82 patterns/testimonials-image.php:85
+msgid "Rebecca Jones"
+msgstr ""
+
+#: patterns/testimonials-image-dark.php:85 patterns/testimonials-image.php:88
+msgid "Coach"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "{PROJECT_NAME}"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Theme sur mesure pour {PROJECT_NAME}"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "FIXRS"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://fixrs.ca/"
+msgstr ""

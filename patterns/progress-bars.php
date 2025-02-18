@@ -1,9 +1,12 @@
 <?php
 /**
  * Title: Progres bars with text, spacers.
- * Slug: frost/progress-bars
+ * Slug: {fixrs}/progress-bars
  * Categories: featured
+ *
+ * @package {fixrs}-theme
  */
+
 ?>
 <!-- wp:group {"layout":{"type":"constrained"}} -->
 <div class="wp-block-group">
@@ -14,17 +17,17 @@
 			<!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"},"fontSize":"small"} -->
 			<div class="wp-block-group has-small-font-size">
 				<!-- wp:paragraph -->
-				<p><?php echo esc_html__( 'Item #1', 'frost' ); ?></p>
+				<p><?php echo esc_html__( 'Item #1', '{fixrs}-theme' ); ?></p>
 				<!-- /wp:paragraph -->
 				<!-- wp:paragraph -->
-				<p><?php echo esc_html__( '100%', 'frost' ); ?></p>
+				<p><?php echo esc_html__( '100%', '{fixrs}-theme' ); ?></p>
 				<!-- /wp:paragraph -->
 			</div>
 			<!-- /wp:group -->
 			<!-- wp:group {"backgroundColor":"contrast","layout":{"type":"constrained"}} -->
 			<div class="wp-block-group has-contrast-background-color has-background">
-			<!-- wp:spacer {"height":"20px"} -->
-			<div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
+			<!-- wp:spacer {"height":"2.0rem"} -->
+			<div style="height:2.0rem" aria-hidden="true" class="wp-block-spacer"></div>
 			<!-- /wp:spacer -->
 			</div>
 			<!-- /wp:group -->
@@ -34,8 +37,8 @@
 		<div class="wp-block-column is-vertically-aligned-bottom" style="flex-basis:0%">
 			<!-- wp:group {"layout":{"type":"constrained"}} -->
 			<div class="wp-block-group">
-				<!-- wp:spacer {"height":"20px"} -->
-				<div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
+				<!-- wp:spacer {"height":"2.0rem"} -->
+				<div style="height:2.0rem" aria-hidden="true" class="wp-block-spacer"></div>
 				<!-- /wp:spacer -->
 			</div>
 			<!-- /wp:group -->
@@ -50,17 +53,17 @@
 			<!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"},"fontSize":"small"} -->
 			<div class="wp-block-group has-small-font-size">
 				<!-- wp:paragraph -->
-				<p><?php echo esc_html__( 'Item #2', 'frost' ); ?></p>
+				<p><?php echo esc_html__( 'Item #2', '{fixrs}-theme' ); ?></p>
 				<!-- /wp:paragraph -->
 				<!-- wp:paragraph -->
-				<p><?php echo esc_html__( '90%', 'frost' ); ?></p>
+				<p><?php echo esc_html__( '90%', '{fixrs}-theme' ); ?></p>
 				<!-- /wp:paragraph -->
 			</div>
 			<!-- /wp:group -->
 			<!-- wp:group {"backgroundColor":"contrast","layout":{"type":"constrained"}} -->
 			<div class="wp-block-group has-contrast-background-color has-background">
-			<!-- wp:spacer {"height":"20px"} -->
-			<div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
+			<!-- wp:spacer {"height":"2.0rem"} -->
+			<div style="height:2.0rem" aria-hidden="true" class="wp-block-spacer"></div>
 			<!-- /wp:spacer -->
 			</div>
 			<!-- /wp:group -->
@@ -70,8 +73,8 @@
 		<div class="wp-block-column is-vertically-aligned-bottom" style="flex-basis:10%">
 			<!-- wp:group {"backgroundColor":"neutral","layout":{"type":"constrained"}} -->
 			<div class="wp-block-group has-neutral-background-color has-background">
-				<!-- wp:spacer {"height":"20px"} -->
-				<div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
+				<!-- wp:spacer {"height":"2.0rem"} -->
+				<div style="height:2.0rem" aria-hidden="true" class="wp-block-spacer"></div>
 				<!-- /wp:spacer -->
 			</div>
 			<!-- /wp:group -->
@@ -86,17 +89,17 @@
 			<!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"},"fontSize":"small"} -->
 			<div class="wp-block-group has-small-font-size">
 				<!-- wp:paragraph -->
-				<p><?php echo esc_html__( 'Item #3', 'frost' ); ?></p>
+				<p><?php echo esc_html__( 'Item #3', '{fixrs}-theme' ); ?></p>
 				<!-- /wp:paragraph -->
 				<!-- wp:paragraph -->
-				<p><?php echo esc_html__( '80%', 'frost' ); ?></p>
+				<p><?php echo esc_html__( '80%', '{fixrs}-theme' ); ?></p>
 				<!-- /wp:paragraph -->
 			</div>
 			<!-- /wp:group -->
 			<!-- wp:group {"backgroundColor":"contrast","layout":{"type":"constrained"}} -->
 			<div class="wp-block-group has-contrast-background-color has-background">
-			<!-- wp:spacer {"height":"20px"} -->
-			<div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
+			<!-- wp:spacer {"height":"2.0rem"} -->
+			<div style="height:2.0rem" aria-hidden="true" class="wp-block-spacer"></div>
 			<!-- /wp:spacer -->
 			</div>
 			<!-- /wp:group -->
@@ -106,8 +109,8 @@
 		<div class="wp-block-column is-vertically-aligned-bottom" style="flex-basis:20%">
 			<!-- wp:group {"backgroundColor":"neutral","layout":{"type":"constrained"}} -->
 			<div class="wp-block-group has-neutral-background-color has-background">
-				<!-- wp:spacer {"height":"20px"} -->
-				<div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
+				<!-- wp:spacer {"height":"2.0rem"} -->
+				<div style="height:2.0rem" aria-hidden="true" class="wp-block-spacer"></div>
 				<!-- /wp:spacer -->
 			</div>
 			<!-- /wp:group -->
@@ -122,17 +125,17 @@
 			<!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"},"fontSize":"small"} -->
 			<div class="wp-block-group has-small-font-size">
 				<!-- wp:paragraph -->
-				<p><?php echo esc_html__( 'Item #4', 'frost' ); ?></p>
+				<p><?php echo esc_html__( 'Item #4', '{fixrs}-theme' ); ?></p>
 				<!-- /wp:paragraph -->
 				<!-- wp:paragraph -->
-				<p><?php echo esc_html__( '70%', 'frost' ); ?></p>
+				<p><?php echo esc_html__( '70%', '{fixrs}-theme' ); ?></p>
 				<!-- /wp:paragraph -->
 			</div>
 			<!-- /wp:group -->
 			<!-- wp:group {"backgroundColor":"contrast","layout":{"type":"constrained"}} -->
 			<div class="wp-block-group has-contrast-background-color has-background">
-			<!-- wp:spacer {"height":"20px"} -->
-			<div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
+			<!-- wp:spacer {"height":"2.0rem"} -->
+			<div style="height:2.0rem" aria-hidden="true" class="wp-block-spacer"></div>
 			<!-- /wp:spacer -->
 			</div>
 			<!-- /wp:group -->
@@ -142,8 +145,8 @@
 		<div class="wp-block-column is-vertically-aligned-bottom" style="flex-basis:30%">
 			<!-- wp:group {"backgroundColor":"neutral","layout":{"type":"constrained"}} -->
 			<div class="wp-block-group has-neutral-background-color has-background">
-				<!-- wp:spacer {"height":"20px"} -->
-				<div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
+				<!-- wp:spacer {"height":"2.0rem"} -->
+				<div style="height:2.0rem" aria-hidden="true" class="wp-block-spacer"></div>
 				<!-- /wp:spacer -->
 			</div>
 			<!-- /wp:group -->
@@ -158,17 +161,17 @@
 			<!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"},"fontSize":"small"} -->
 			<div class="wp-block-group has-small-font-size">
 				<!-- wp:paragraph -->
-				<p><?php echo esc_html__( 'Item #5', 'frost' ); ?></p>
+				<p><?php echo esc_html__( 'Item #5', '{fixrs}-theme' ); ?></p>
 				<!-- /wp:paragraph -->
 				<!-- wp:paragraph -->
-				<p><?php echo esc_html__( '60%', 'frost' ); ?></p>
+				<p><?php echo esc_html__( '60%', '{fixrs}-theme' ); ?></p>
 				<!-- /wp:paragraph -->
 			</div>
 			<!-- /wp:group -->
 			<!-- wp:group {"backgroundColor":"contrast","layout":{"type":"constrained"}} -->
 			<div class="wp-block-group has-contrast-background-color has-background">
-			<!-- wp:spacer {"height":"20px"} -->
-			<div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
+			<!-- wp:spacer {"height":"2.0rem"} -->
+			<div style="height:2.0rem" aria-hidden="true" class="wp-block-spacer"></div>
 			<!-- /wp:spacer -->
 			</div>
 			<!-- /wp:group -->
@@ -178,8 +181,8 @@
 		<div class="wp-block-column is-vertically-aligned-bottom" style="flex-basis:40%">
 			<!-- wp:group {"backgroundColor":"neutral","layout":{"type":"constrained"}} -->
 			<div class="wp-block-group has-neutral-background-color has-background">
-				<!-- wp:spacer {"height":"20px"} -->
-				<div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
+				<!-- wp:spacer {"height":"2.0rem"} -->
+				<div style="height:2.0rem" aria-hidden="true" class="wp-block-spacer"></div>
 				<!-- /wp:spacer -->
 			</div>
 			<!-- /wp:group -->
@@ -194,17 +197,17 @@
 			<!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"},"fontSize":"small"} -->
 			<div class="wp-block-group has-small-font-size">
 				<!-- wp:paragraph -->
-				<p><?php echo esc_html__( 'Item #6', 'frost' ); ?></p>
+				<p><?php echo esc_html__( 'Item #6', '{fixrs}-theme' ); ?></p>
 				<!-- /wp:paragraph -->
 				<!-- wp:paragraph -->
-				<p><?php echo esc_html__( '50%', 'frost' ); ?></p>
+				<p><?php echo esc_html__( '50%', '{fixrs}-theme' ); ?></p>
 				<!-- /wp:paragraph -->
 			</div>
 			<!-- /wp:group -->
 			<!-- wp:group {"backgroundColor":"contrast","layout":{"type":"constrained"}} -->
 			<div class="wp-block-group has-contrast-background-color has-background">
-			<!-- wp:spacer {"height":"20px"} -->
-			<div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
+			<!-- wp:spacer {"height":"2.0rem"} -->
+			<div style="height:2.0rem" aria-hidden="true" class="wp-block-spacer"></div>
 			<!-- /wp:spacer -->
 			</div>
 			<!-- /wp:group -->
@@ -214,8 +217,8 @@
 		<div class="wp-block-column is-vertically-aligned-bottom" style="flex-basis:50%">
 			<!-- wp:group {"backgroundColor":"neutral","layout":{"type":"constrained"}} -->
 			<div class="wp-block-group has-neutral-background-color has-background">
-				<!-- wp:spacer {"height":"20px"} -->
-				<div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
+				<!-- wp:spacer {"height":"2.0rem"} -->
+				<div style="height:2.0rem" aria-hidden="true" class="wp-block-spacer"></div>
 				<!-- /wp:spacer -->
 			</div>
 			<!-- /wp:group -->

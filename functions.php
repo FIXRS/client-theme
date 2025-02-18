@@ -1,14 +1,14 @@
 <?php
 /**
- * This file adds functions to the Frost WordPress theme.
+ * This file adds functions to the WordPress theme.
  *
- * @package Frost
- * @author  WP Engine
+ * @package {fixrs}-theme
+ * @author  FIXRS
  * @license GNU General Public License v3
- * @link    https://frostwp.com/
+ * @link    https://fixrs.ca/
  */
 
-if ( ! function_exists( 'frost_setup' ) ) {
+if ( ! function_exists( '{fixrs}_theme_setup' ) ) {
 
 	/**
 	 * Sets up theme defaults and registers support for various WordPress features.
@@ -21,27 +21,36 @@ if ( ! function_exists( 'frost_setup' ) ) {
 	 *
 	 * @return void
 	 */
-	function frost_setup() {
+	function {fixrs}_theme_setup() {
 
 		// Make theme available for translation.
-		load_theme_textdomain( 'frost', get_template_directory() . '/languages' );
+		load_theme_textdomain( '{fixrs}-theme', get_template_directory() . '/languages' );
+
+		// Set the year the site was launched.
+		define( 'COPYRIGHT_YEAR_FROM', 2025 );
+
+		// Set the name of the organisation that owns the site.
+		define( 'COPYRIGHT_OWNER', _x( 'Organisation name', 'Copyright owner', '{fixrs}-theme' ) );
 
 		// Enqueue editor stylesheet.
 		add_editor_style( get_template_directory_uri() . '/style.css' );
 
 		// Remove core block patterns.
 		remove_theme_support( 'core-block-patterns' );
-
 	}
 }
-add_action( 'after_setup_theme', 'frost_setup' );
+add_action( 'after_setup_theme', '{fixrs}_theme_setup' );
 
 // Enqueue stylesheet.
-add_action( 'wp_enqueue_scripts', 'frost_enqueue_stylesheet' );
-function frost_enqueue_stylesheet() {
+add_action( 'wp_enqueue_scripts', '{fixrs}_theme_enqueue_stylesheet' );
+/**
+ * Enqueue theme stylesheet.
+ */
+function {fixrs}_theme_enqueue_stylesheet() {
 
-	wp_enqueue_style( 'frost', get_template_directory_uri() . '/style.css', array(), wp_get_theme()->get( 'Version' ) );
+	$version = SCRIPT_DEBUG ? time() : wp_get_theme()->get( 'Version' );
 
+	wp_enqueue_style( '{fixrs}-theme', get_template_directory_uri() . '/style.css', array(), $version );
 }
 
 /**
@@ -49,25 +58,25 @@ function frost_enqueue_stylesheet() {
  *
  * @since 0.9.2
  */
-function frost_register_block_styles() {
+function {fixrs}_theme_register_block_styles() {
 
 	$block_styles = array(
-		'core/columns' => array(
-			'columns-reverse' => __( 'Reverse', 'frost' ),
+		'core/columns'      => array(
+			'columns-reverse' => __( 'Reverse', '{fixrs}-theme' ),
 		),
-		'core/group' => array(
-			'shadow-light' => __( 'Shadow', 'frost' ),
-			'shadow-solid' => __( 'Solid', 'frost' ),
+		'core/group'        => array(
+			'shadow-light' => __( 'Shadow', '{fixrs}-theme' ),
+			'shadow-solid' => __( 'Solid', '{fixrs}-theme' ),
 		),
-		'core/list' => array(
-			'no-disc' => __( 'No Disc', 'frost' ),
+		'core/list'         => array(
+			'no-disc' => __( 'No Disc', '{fixrs}-theme' ),
 		),
-		'core/quote' => array(
-			'shadow-light' => __( 'Shadow', 'frost' ),
-			'shadow-solid' => __( 'Solid', 'frost' ),
+		'core/quote'        => array(
+			'shadow-light' => __( 'Shadow', '{fixrs}-theme' ),
+			'shadow-solid' => __( 'Solid', '{fixrs}-theme' ),
 		),
 		'core/social-links' => array(
-			'outline' => __( 'Outline', 'frost' ),
+			'outline' => __( 'Outline', '{fixrs}-theme' ),
 		),
 	);
 
@@ -83,30 +92,37 @@ function frost_register_block_styles() {
 		}
 	}
 }
-add_action( 'init', 'frost_register_block_styles' );
+add_action( 'init', '{fixrs}_theme_register_block_styles' );
 
 /**
  * Register block pattern categories.
  *
  * @since 1.0.4
  */
-function frost_register_block_pattern_categories() {
+function {fixrs}_theme_register_block_pattern_categories() {
 
 	register_block_pattern_category(
-		'frost-page',
+		'theme-page',
 		array(
-			'label'       => __( 'Page', 'frost' ),
-			'description' => __( 'Create a full page with multiple patterns that are grouped together.', 'frost' ),
+			'label'       => __( 'Page', '{fixrs}-theme' ),
+			'description' => __( 'Create a full page with multiple patterns that are grouped together.', '{fixrs}-theme' ),
 		)
 	);
 	register_block_pattern_category(
-		'frost-pricing',
+		'theme-pricing',
 		array(
-			'label'       => __( 'Pricing', 'frost' ),
-			'description' => __( 'Compare features for your digital products or service plans.', 'frost' ),
+			'label'       => __( 'Pricing', '{fixrs}-theme' ),
+			'description' => __( 'Compare features for your digital products or service plans.', '{fixrs}-theme' ),
 		)
 	);
-
 }
 
-add_action( 'init', 'frost_register_block_pattern_categories' );
+add_action( 'init', '{fixrs}_theme_register_block_pattern_categories' );
+
+
+/**
+ * That's it, stop editing!
+ */
+require_once trailingslashit( get_template_directory() ) . 'inc/wp-customization.php';
+require_once trailingslashit( get_template_directory() ) . 'inc/wc-customization.php';
+require_once trailingslashit( get_template_directory() ) . 'inc/code-insertion.php';
