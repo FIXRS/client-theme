@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: {fixrs}-theme\n"
-"POT-Creation-Date: 2025-02-18 11:54-0500\n"
+"POT-Creation-Date: 2025-02-18 13:32-0500\n"
 "PO-Revision-Date: 2025-02-18 11:53-0500\n"
 "Last-Translator: \n"
 "Language-Team: FIXRS\n"
@@ -21,40 +21,73 @@ msgstr ""
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.min.js\n"
 
-#: functions.php:57
+#: functions.php:33
+msgctxt "Copyright owner"
+msgid "Organisation name"
+msgstr ""
+
+#: functions.php:65
 msgid "Reverse"
 msgstr ""
 
-#: functions.php:60 functions.php:67
+#: functions.php:68 functions.php:75
 msgid "Shadow"
 msgstr ""
 
-#: functions.php:61 functions.php:68
+#: functions.php:69 functions.php:76
 msgid "Solid"
 msgstr ""
 
-#: functions.php:64
+#: functions.php:72
 msgid "No Disc"
 msgstr ""
 
-#: functions.php:71
+#: functions.php:79
 msgid "Outline"
 msgstr ""
 
-#: functions.php:99
+#: functions.php:107
 msgid "Page"
 msgstr ""
 
-#: functions.php:100
+#: functions.php:108
 msgid "Create a full page with multiple patterns that are grouped together."
 msgstr ""
 
-#: functions.php:106
+#: functions.php:114
 msgid "Pricing"
 msgstr ""
 
-#: functions.php:107
+#: functions.php:115
 msgid "Compare features for your digital products or service plans."
+msgstr ""
+
+#: inc/code-insertion.php:62
+msgid ""
+"The value is invalid. It must contain the <script> tags, otherwise the code "
+"will be displayed in the page instead of being properly processed."
+msgstr ""
+
+#. translators:
+#. %1$s: The years to display in the copyright notice.
+#. %2$s: The name of the copyright owner.
+#.
+#: inc/wp-customization.php:44
+#, php-format
+msgid "© %1$s %2$s. All rights reserved."
+msgstr ""
+
+#: inc/wp-customization.php:78
+msgid "Last modified"
+msgstr ""
+
+#: inc/wp-customization.php:105
+msgid "F j Y at g:i A"
+msgstr ""
+
+#: inc/wp-customization.php:107
+msgctxt "Last modified"
+msgid "by"
 msgstr ""
 
 #: patterns/404.php:12
@@ -748,6 +781,83 @@ msgstr ""
 
 #: patterns/testimonials-image-dark.php:85 patterns/testimonials-image.php:88
 msgid "Coach"
+msgstr ""
+
+#: woocommerce/myaccount/dashboard.php:31
+msgid "Account Information"
+msgstr ""
+
+#: woocommerce/myaccount/dashboard.php:33
+msgid "Contact Information"
+msgstr ""
+
+#: woocommerce/myaccount/dashboard.php:40
+#: woocommerce/myaccount/dashboard.php:253
+msgid "Edit"
+msgstr ""
+
+#: woocommerce/myaccount/dashboard.php:41
+msgid "Change Password"
+msgstr ""
+
+#: woocommerce/myaccount/dashboard.php:52
+msgid "Order"
+msgstr ""
+
+#: woocommerce/myaccount/dashboard.php:53
+msgid "Date"
+msgstr ""
+
+#: woocommerce/myaccount/dashboard.php:54
+msgid "Status"
+msgstr ""
+
+#: woocommerce/myaccount/dashboard.php:55
+msgid "Total"
+msgstr ""
+
+#: woocommerce/myaccount/dashboard.php:84
+msgid "Current orders"
+msgstr ""
+
+#: woocommerce/myaccount/dashboard.php:110
+#: woocommerce/myaccount/dashboard.php:173
+msgctxt "hash before order number"
+msgid "#"
+msgstr ""
+
+#. translators: 1: formatted order total 2: total order items
+#: woocommerce/myaccount/dashboard.php:122
+#: woocommerce/myaccount/dashboard.php:185
+#, php-format
+msgid "%1$s for %2$s item"
+msgid_plural "%1$s for %2$s items"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/myaccount/dashboard.php:147
+msgid "Recent orders"
+msgstr ""
+
+#: woocommerce/myaccount/dashboard.php:211
+msgid "Addresses"
+msgstr ""
+
+#: woocommerce/myaccount/dashboard.php:220
+#: woocommerce/myaccount/dashboard.php:229
+msgid "Billing address"
+msgstr ""
+
+#: woocommerce/myaccount/dashboard.php:221
+msgid "Shipping address"
+msgstr ""
+
+#: woocommerce/myaccount/dashboard.php:253
+msgid "Add"
+msgstr ""
+
+#: woocommerce/myaccount/dashboard.php:257
+msgid "You have not set up this type of address yet."
 msgstr ""
 
 #. Theme Name of the plugin/theme
